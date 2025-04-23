@@ -14,6 +14,18 @@
 .text-gray{
     color: #808080;
 }
+.test-small{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #42B6E9;
+}
+
+h1{ font-size: 25px;
+
+}
 .w-50{
     width: 50%;
 }
