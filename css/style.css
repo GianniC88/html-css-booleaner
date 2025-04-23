@@ -27,7 +27,8 @@ h1{ font-size: 25px;
 }
  ul{
     padding-inline-start: 0;
-    list-style-position: inside;
+    list-style-position: inside;   
+    margin: 5px;
  }
 
 /* header */
@@ -81,3 +82,39 @@ body,figure{
  tr.even{
     background-color: #fff;
  }
+
+ /* relate article */
+ .tech-article {
+    width: 210px;
+    height: 160px;
+    background-image: url(../img/monitor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.finance-article {
+    width: 210px;
+    height: 160px;
+    background-image: url(../img/graph.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.related-article {
+    margin-bottom: 20px;
+}
+
+.related-article-title {
+    margin: 0;
+    font: size 1.2rem;
+}
