@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
 
-}
 
 /* utils */
 
@@ -29,12 +25,18 @@ h1{ font-size: 25px;
 .w-50{
     width: 50%;
 }
+ ul{
+    padding-inline-start: 0;
+    list-style-position: inside;
+ }
 
 /* header */
 #main-header{
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
     background-size: 35%;
+    height: 100px;
+    line-height: 100px;
     
 
 }
@@ -53,3 +55,29 @@ body,figure{
 .article-picture{ 
     margin: 20px 0;
 }
+ address{
+    font-style: normal;
+    font-size: 14;
+
+ }
+
+ /* picture article */
+ .article-picture{
+    margin: 20px 0;
+ }
+
+ /* table */
+ table{
+    border-collapse: collapse;
+ }
+  th{ text-align:left;
+    background-color: #42B6E9;
+    color: white;
+}
+ tr{
+    background-color: #B1E5F2;
+   
+ } 
+ tr.even{
+    background-color: #fff;
+ }
