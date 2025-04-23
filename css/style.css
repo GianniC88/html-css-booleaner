@@ -45,3 +45,11 @@ h1{ font-size: 25px;
     vertical-align: middle;
     margin: 7px;
 }
+
+body,figure{
+    margin: 0;
+}
+
+.article-picture{ 
+    margin: 20px 0;
+}
